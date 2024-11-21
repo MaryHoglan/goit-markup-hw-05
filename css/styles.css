@@ -1,3 +1,8 @@
+
+
+
+/* #region  */
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -54,7 +59,7 @@ img {
     height: auto;
 }
 
-
+/* #endregion */
 
 
 
@@ -88,8 +93,10 @@ img {
 }
 
 
+/* #region header  */
 
-/* header */
+
+
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
@@ -190,8 +197,10 @@ img {
 .nav-link.current {
     color: #404bbf;
 }
+/* #endregion */
 
-/* hero */
+
+/* #region  hero*/
 
 .hero {
     max-width: 1440px;
@@ -252,8 +261,10 @@ img {
     background-color: #404BBF;
     cursor: pointer;
 }
+/* #endregion */
 
-/* service */
+
+/* #region service */
 
 .services {
     padding: 120px 0;
@@ -292,7 +303,11 @@ img {
 
 .services-text {}
 
-/* team */
+/* #endregion */
+
+
+/* #region team */
+
 
 .team {
     padding: 120px 0;
@@ -390,7 +405,9 @@ img {
     background-color: #404bbf;
 }
 
-/* portfolio */
+/* #endregion */
+
+/* #region  portfolio */
 
 .portfolio {
     padding: 120px 0;
@@ -473,9 +490,10 @@ img {
 .portfolio-item:hover .portfolio-hiden-text {
     transform: translateY(0);
 }
+/* #endregion */
 
-/* footer */
 
+/* #region footer */
 .footer {
     padding: 100px 0;
     background-color: #2e2f42;
@@ -559,5 +577,5 @@ width: 208px;
 .footer-social-link:focus {
     background-color: #31D0AA;
 }
-
+/* #endregion */
 
