@@ -857,7 +857,7 @@ input.visually-hidden:checked+.modal-check-label .modal-check-part {
     border: none;
     }
 
-input.visually-hidden:checked+.modal-check-label .modal-check-part .modal-check-icon {
+input.visually-hidden:checked + .modal-check-label .modal-check-part .modal-check-icon {
     fill: #F4F4FD;}
 
 
