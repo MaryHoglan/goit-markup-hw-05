@@ -787,7 +787,7 @@ display: flex;
        
    }
     
-input.visually-hidden:checked+.modal-check-part {
+input.visually-hidden:checked+.modal-check-label .modal-check-part {
       background-color: #404bbf;
       border: none;
       fill: #F4F4FD;
