@@ -853,7 +853,7 @@ width: 208px;
   }
 
 input.visually-hidden:checked+.modal-check-label .modal-check-part {
-    background-color: #404bbf;
+    background-color: var(--checked-bg-color, #404bbf);
         }
 
 input.visually-hidden:checked + .modal-check-label .modal-check-part .modal-check-icon {
