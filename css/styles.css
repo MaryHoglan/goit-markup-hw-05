@@ -853,10 +853,10 @@ width: 208px;
   }
 
 
- input[type="checkbox"]:checked+.modal-form-label .modal-check-part {
-     background-color: #404bbf;
+ input.input-checkbox:checked + .modal-check-label>.modal-check-part {
+     background-color: #404BBF;
      border: none;
-     fill: #f4f4fd;
+     fill: #F4F4FD;
  }
 
 
