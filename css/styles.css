@@ -793,7 +793,7 @@ input.visually-hidden:checked+.modal-check-part {
       fill: #F4F4FD;
   }
 
-  input:focus+.modal-form-wrapper .modal-form-icon {
+  input:focus+.modal-form-icon {
       fill: #4D5AE5;}
 
 
