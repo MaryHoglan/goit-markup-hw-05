@@ -852,15 +852,7 @@ width: 208px;
     fill: transparent;
   }
 
-
-
-
-input[type="checkbox"]:checked+label .modal-check-part {
-    background-color: #404bbf;
-    border: none;
-    fill: #F4F4FD;
-}
-
+  
 .modal-check-icon { 
     
 }
