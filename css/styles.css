@@ -593,7 +593,7 @@ width: 208px;
 .footer-form {
     display: flex;
     gap: 24px;
-    
+
 }
 
 .footer-label {}
@@ -603,10 +603,19 @@ width: 208px;
     border-radius: 4px;
     width: 264px;
     height: 40px;
+    background-color: transparent;
+    font-size: 12px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background-color: #2e2f42;}
+    background-color: #2e2f42;
+    padding-left: 16px;
+    color: #fff;
 
-.footer-btn { 
+
+}
+
+
+
+.footer-btn { display: flex;
     color: #fff;
     align-items: center;
     justify-content: center;
@@ -614,7 +623,7 @@ width: 208px;
     gap: 16px;
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background: #4d5ae5;
 }
