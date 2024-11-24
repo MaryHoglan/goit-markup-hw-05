@@ -703,7 +703,8 @@ display: flex;
         cursor: pointer;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
             border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
+        }
 
 
 .button-close:hover,
@@ -720,8 +721,8 @@ display: flex;
 }
 
 
-.modal-caption {
-    margin: 72px 24px 16px;
+.modal-title {
+  
     width: 360px;
 
     font-weight: 500;
@@ -824,7 +825,9 @@ input.visually-hidden:checked+.modal-check-part {
     margin-bottom: 24px;
 }
 
-.modal-checkbox {}
+.modal-checkbox {
+    margin-bottom: 8px;
+}
 
 .modal-check-label {
     
@@ -857,7 +860,6 @@ input.visually-hidden:checked+.modal-check-part {
     color: #4d5ae5;}
 
 
-.modal-button-send {}
 
 
 
