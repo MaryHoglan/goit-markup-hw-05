@@ -787,11 +787,8 @@ display: flex;
        
    }
     
-input.visually-hidden:checked+.modal-check-label .modal-check-part {
-      background-color: #404bbf;
-      border: none;
-      fill: #F4F4FD;
-  }
+
+  
 
   input:focus+.modal-form-icon {
       fill: #4D5AE5;}
@@ -845,6 +842,12 @@ input.visually-hidden:checked+.modal-check-label .modal-check-part {
     fill: transparent;
     
 }
+
+input.visually-hidden:checked+.modal-check-label .modal-check-part {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;}
+
 
 .modal-check-icon {}
 
