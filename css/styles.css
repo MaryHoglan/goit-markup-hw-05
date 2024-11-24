@@ -577,25 +577,34 @@ width: 208px;
 .footer-social-link:focus {
     background-color: #31D0AA;
 }
+/* #region  */
 
-.footer-email {
-    margin-left: 80px;
-    display: flex;
-  
-    
+/* #endregion */
+.footer-form-container {
+    display: flex; 
     flex-direction: column;
+    gap: 16px;
 }
 
-.footer-social-text {}
+.footer-form-text {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02;
+    color: #fff;
+}
 
-.footer-form { padding-bottom: 0;}
+
+.footer-form { 
+    display: flex;
+    gap: 24px;
+}
 
 .footer-label { 
-
-}
-.footer-email-item {
-display: flex;
-
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
 }
 
 
@@ -607,29 +616,47 @@ display: flex;
     border-radius: 4px;
     width: 264px;
     height: 40px;
-}
-.footer-btn { 
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    gap: 16px;
-    margin-left: 24px;
-    background-color: #4d5ae5;
-    border-radius: 4px;
-    
-    width: 165px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 12px;
+    line-height: 2;
     letter-spacing: 0.04em;
-    text-align: center;
-    color: #fff;
+    color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+
+.modal-email-input::placeholder {
+    color: #ffffff;
+}
+
+
+
+.footer-btn { 
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        margin-left: 24px;
+        background-color: #4d5ae5;
+        border-radius: 4px;
+        min-width: 165px;
+        height: 40px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        cursor: pointer;
+        border: none;
+}
+
+.footer-btn:hover {
+    background-color: #3c4fae;
+}
+
 .footer-btn-icon {
    
     fill: #fff;
+    margin-left: 16px;
+
     
 }
 
@@ -843,7 +870,7 @@ display: flex;
     
   }
 
-input.visually-hidden:checked+.modal-check-label .modal-check-part {
+input.visually-hidden:checked+label .modal-check-part {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;}
