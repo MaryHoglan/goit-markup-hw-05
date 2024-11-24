@@ -829,11 +829,11 @@ input.visually-hidden:checked+.modal-check-part {
 }
 
 .modal-checkbox {
-    margin-bottom: 8px;
+    margin-bottom: 24px;
 }
 
 .modal-check-label {
-    margin-bottom: 24px;
+    
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
