@@ -852,15 +852,14 @@ width: 208px;
     fill: transparent;
   }
 
-input.visually-hidden:checked+.modal-check-label .modal-check-part {
-    background-color: var(--checked-bg-color, #404bbf);
-        }
-
-input.visually-hidden:checked + .modal-check-label .modal-check-part .modal-check-icon {
-    fill: #F4F4FD;}
 
 
 
+input[type="checkbox"]:checked+label .modal-check-part {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
+}
 
 .modal-check-icon { 
     
