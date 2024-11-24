@@ -837,7 +837,7 @@ width: 208px;
     color: #8e8f99;
 }
 
-.modal-check-part {
+.modal-check-label .modal-check-part {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -854,8 +854,7 @@ width: 208px;
 
 input.visually-hidden:checked+.modal-check-label .modal-check-part {
     background-color: #404bbf;
-    border: none;
-    }
+        }
 
 input.visually-hidden:checked + .modal-check-label .modal-check-part .modal-check-icon {
     fill: #F4F4FD;}
