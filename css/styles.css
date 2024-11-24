@@ -740,6 +740,9 @@ display: flex;
 .modal-form-field {
     margin-bottom: 8px;
 }
+.form-comment {
+    margin-bottom: 16px
+}
 
 .modal-form-label { 
     display: block;
