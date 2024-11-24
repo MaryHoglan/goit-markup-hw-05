@@ -775,6 +775,7 @@ display: flex;
     transform: translateY(-50%);
     fill: #2e2f42;
     pointer-events: none;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
     .modal-form-input:hover,
@@ -792,9 +793,10 @@ input.visually-hidden:checked+.modal-check-part {
       fill: #F4F4FD;
   }
 
-.modal-form-icon:hover {
-    color: #4D5AE5;
-    }
+  input:focus+.modal-form-wrapper .modal-form-icon {
+      fill: #4D5AE5;}
+
+
 
 
 .modal-comment {
